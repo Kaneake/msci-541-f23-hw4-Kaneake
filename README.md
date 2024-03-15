@@ -39,7 +39,7 @@ java IndexEngine <path to the latimes.gz file> <path to directory where the docs
   The usage of '/' may vary if you are using Windows or Mac. The above usage is for terminals on Mac.
 </p>
 
-#### 2.B Run BM25.java to create hw4-bm25-baseline.knurmamb.txt TREC file:
+#### 2.B Run BM25.java to create hw4-bm25-baseline-knurmamb.txt TREC file:
 ```
 javac BM25.java
 java BM25 output.txt queries.txt
@@ -57,7 +57,7 @@ java IndexEngineStemmed <path to the latimes.gz file>
   </i>
 </p>
 
-#### 3.B Run BM25.java to create hw4-bm25-stem.knurmamb.txt TREC file:
+#### 3.B Run BM25.java to create hw4-bm25-stem-knurmamb.txt TREC file:
 ```
 javac BM25ForStem.java
 java BM25ForStem stemOutput.txt queries.txt
