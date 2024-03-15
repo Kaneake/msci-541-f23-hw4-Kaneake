@@ -44,7 +44,7 @@ java IndexEngine <path to the latimes.gz file> <path to directory where the docs
 javac BM25.java
 java BM25 output.txt queries.txt
 ```
-This will take a long time to run. Feel free to go for a walk or grab a cup of tea. The results will be posted in the newly created file called hw4-bm25-baseline-knurmamb.txt.
+This will take a long time to run. After all, we are retrieving and BM25 judging all documents that have any terms from the query. We sort them as we go and at the end, we store the top 1000 results per topic into the text file as per HW4 instructions. Feel free to go for a walk or grab a cup of tea. The results will be posted in the newly created file called hw4-bm25-baseline-knurmamb.txt.
 
 #### 3.A Run IndexEngineStemmed.java to create inverted index and lexicon through Porter Stemmer as follows:
 ```
