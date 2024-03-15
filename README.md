@@ -62,4 +62,4 @@ java IndexEngineStemmed <path to the latimes.gz file>
 javac BM25ForStem.java
 java BM25ForStem stemOutput.txt queries.txt
 ```
-The results will be posted in the newly created file called hw4-bm25-stem.knurmamb.txt.
+The results will be posted in the newly created file called hw4-bm25-stem-knurmamb.txt.
